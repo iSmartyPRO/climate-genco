@@ -1,0 +1,30 @@
+@charset "UTF-8";
+.button {
+  padding: 10px 20px;
+  border: 1px solid #ddd;
+  color: #333;
+  background-color: #fff;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  text-decoration: none;
+
+}
+.button[disabled] {
+  cursor: not-allowed;
+}
+.button.danger {
+  background-color: #ff4949;
+  color: #fff;
+}
+.button.success {
+  background-color: #13ce66;
+  color: #fff;
+}
+.button.info {
+  background-color: #50bfff;
+  color: #fff;
+}
+.buttons {
+  margin-bottom: 15px;
+}
